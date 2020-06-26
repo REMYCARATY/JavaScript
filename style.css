@@ -1,0 +1,72 @@
+* {
+	overflow: hidden;
+}
+
+body {
+	background-image: url("./assets/img/queen.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100%;
+	margin: 0px;
+	display: flex;
+}
+
+.text {
+	width: 400px;
+	height: 250px;
+	top: calc(50vh - 125px);
+	left: 10px;
+	border-radius: 1em;
+	background-color: gray;
+	color: black;
+	position: absolute;
+}
+h1{
+	text-align: center;
+}
+
+p {
+	text-align: center;
+}
+
+.imgs{
+	width: 250px;
+	height: 100vh;
+	right: 0px;
+	position: absolute;
+}
+
+.Q{
+	width:250px;
+	height:250px;
+	top: calc(20% - 125px);
+	background-image: url("./assets/img/Q.png");
+	background-size: cover;
+	background-position: center;
+	z-index: 10;
+	position: absolute;
+}
+
+.D{
+	width:250px;
+	height:250px;
+	top: calc(60% - 125px);
+	background-image: url("./assets/img/D.png");
+	background-size: cover;
+	background-position: center;
+	z-index: 10;
+	position: absolute;
+}
+
+.E{
+	width:250px;
+	height:154px;
+	top: calc(90% - 77px);
+	background-image: url("./assets/img/S.png");
+	background-size: cover;
+	background-position: center;
+	z-index: 10;
+	position: absolute;
+}
+
